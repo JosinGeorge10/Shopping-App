@@ -19,7 +19,23 @@ const SignUp = ({navigation}) => {
             <Text style={[styles.bottomSubText, {textAlign: 'right'}]}>
               Classy
             </Text>
-         
+            <View style={styles.subImageContainer}>
+              <Text style={styles.bottomSubText}>Fashion</Text>
+              <View style={styles.starContainer}>
+                <Image
+                  style={styles.starImage}
+                  source={require('../assets/icons/Polygon.png')}
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View style={styles.middleContainer}>
+        <View style={styles.dotOne}></View>
+        <View style={styles.dotTwo}></View>
+        <View style={styles.dotOne}></View>
+      </View>
       <View style={styles.bottomContainer}>
         <View style={styles.leftSection}>
           <Text style={styles.text}>Tops</Text>
@@ -128,4 +144,3 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
 });
-
