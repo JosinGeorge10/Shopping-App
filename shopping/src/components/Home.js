@@ -111,10 +111,7 @@ const Home = () => {
       </View>
       <ScrollView horizontal>
         {detailData.map(item => (
-          <View
-            style={{borderWidth: 2, borderColor: 'red'}}
-            key={item.id}
-            horizontal={true}>
+          <View key={item.id} horizontal={true}>
             <View style={{marginTop: 80, marginLeft: 20}}>
               <View style={{alignItems: 'center'}}>
                 <View style={{width: '100%', height: '70%'}}>
